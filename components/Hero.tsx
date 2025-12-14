@@ -7,8 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1527845688655-2e38c95c2c7c?q=80&w=2070&auto=format&fit=crop" 
-          alt="Halabalusa Crowd" 
+          src="./public/images/bosque.png" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/40"></div>
