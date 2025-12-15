@@ -8,21 +8,21 @@ const News: React.FC = () => {
       id: 1,
       title: "¡FECHA CONFIRMADA!",
       date: "Hace 2 días",
-      image: "https://images.unsplash.com/photo-1514525253440-b393452e8d26?q=80&w=800&auto=format&fit=crop",
+      image: "images/plaza.png",
       desc: "Nos vemos este fin de semana en la plaza. No te pierdas las inscripciones a partir de las 16hs."
     },
     {
       id: 2,
       title: "NUEVO CAMPEÓN",
       date: "Hace 1 semana",
-      image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
+      image: "images/pibe.png",
       desc: "Felicitaciones al ganador de la fecha 4. El nivel está cada vez más alto. #Underground"
     },
     {
       id: 3,
       title: "LLEGÓ LA ROPA",
       date: "Hace 2 semanas",
-      image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=800&auto=format&fit=crop",
+      image: "images/remeragris.png",
       desc: "Ya tenemos disponible el nuevo drop de invierno. Pasate por el puesto en la compe."
     }
   ];
