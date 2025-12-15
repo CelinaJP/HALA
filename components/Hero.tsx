@@ -17,7 +17,6 @@ const Hero: React.FC = () => {
       <div className="relative z-10 text-center px-4 flex flex-col items-center">
         {/* Placeholder for Logo - In a real app, this would be an <img> tag */}
         <div className="mb-6 w-48 h-48 md:w-64 md:h-64 border-4 border-white rounded-full flex items-center justify-center bg-black/50 backdrop-blur-sm shadow-[0_0_30px_rgba(255,255,255,0.2)]">
-            <span className="urban-font text-6xl md:text-8xl font-bold text-white">H</span>
         </div>
         
         <h1 className="urban-font text-6xl md:text-9xl font-bold text-white tracking-tighter shadow-black drop-shadow-lg mb-2">
@@ -28,7 +27,7 @@ const Hero: React.FC = () => {
         </h2>
         
         <p className="max-w-xl mx-auto text-gray-300 mb-12 text-lg italic hidden md:block">
-          "El semillero del freestyle argentino."
+          "Freestyle argentino."
         </p>
 
         <a 

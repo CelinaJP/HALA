@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { url } from 'inspector';
 
 const History: React.FC = () => {
   const images = [
-    "https://images.unsplash.com/photo-1549497554-463d1c169225?q=80&w=1200&auto=format&fit=crop", // Plaza placeholder
-    "https://images.unsplash.com/photo-1551405786-883391d1e467?q=80&w=1200&auto=format&fit=crop", // Crowd
-    "https://images.unsplash.com/photo-1589156280159-27698a70f29e?q=80&w=1200&auto=format&fit=crop"  // Freestyle
+    "public/imagen/plaza.png",
+    "public/images/plazacongente.png",
+    "public/images/publico.png"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
