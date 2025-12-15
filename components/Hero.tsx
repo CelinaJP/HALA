@@ -16,21 +16,14 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="relative z-10 text-center px-4 flex flex-col items-center">
-        {/* Logo */}
-        <img 
-          src="/images/halasinfondo.png" 
-          className="w-32 md:w-48 mb-4"
-        />        
+
         <h1 className="urban-font text-6xl md:text-9xl font-bold text-white tracking-tighter shadow-black drop-shadow-lg mb-2">
           HALABALUSA
         </h1>
         <h2 className="urban-font text-2xl md:text-4xl text-red-500 font-medium tracking-widest uppercase mb-8">
           Movimiento Underground
         </h2>
-        
-        <p className="max-w-xl mx-auto text-gray-300 mb-12 text-lg italic hidden md:block">
-          "Freestyle argentino."
-        </p>
+  
 
         <a 
           href="#historia" 
