@@ -23,15 +23,27 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-md py-2 border-b border-white/10' : 'bg-transparent py-4'}`}>
+    <nav
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        scrolled
+          ? 'bg-black/90 backdrop-blur-md py-2 border-b border-white/10'
+          : 'bg-transparent py-4'
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+          {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="#inicio" className="urban-font text-2xl font-bold tracking-tighter text-white hover:text-red-600 transition-colors">
-              HALABALUSA
+            <a href="#inicio" className="flex items-center">
+              <img
+                src="/images/Halasinfondo.png"
+                alt="Halabalusa Logo"
+                className="h-12 w-auto hover:opacity-80 transition-opacity"
+              />
             </a>
           </div>
-          
+
+          {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link) => (
@@ -45,7 +57,8 @@ const Navbar: React.FC = () => {
               ))}
             </div>
           </div>
-          
+
+          {/* Mobile Menu Button */}
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}

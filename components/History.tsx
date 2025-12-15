@@ -4,8 +4,7 @@ import { url } from 'inspector';
 
 const History: React.FC = () => {
   const images = [
-    "public/imagen/plaza.png",
-    "public/images/plazacongente.png",
+    "public/images/Halasinfondo.png",
     "public/images/publico.png"
   ];
 
