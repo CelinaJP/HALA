@@ -5,21 +5,21 @@ const Merch: React.FC = () => {
   const products = [
     {
       id: 1,
-      name: "Remera Logo Clásica",
-      price: "$15.000",
-      image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop"
+      name: "Remera Logo negra",
+      price: "$35.000",
+      image: "images/remeranegra.png"
     },
     {
       id: 2,
-      name: "Hoodie Underground",
+      name: "Remera Logo gris",
       price: "$35.000",
-      image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop"
+      image: "images/remeragris.png"
     },
     {
       id: 3,
       name: "Gorra Halabalusa",
       price: "$12.000",
-      image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop"
+      image: "images/gorrahala.png"
     }
   ];
 
