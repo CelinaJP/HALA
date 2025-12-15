@@ -4,8 +4,8 @@ import { url } from 'inspector';
 
 const History: React.FC = () => {
   const images = [
-    "public/images/Halasinfondo.png",
-    "public/images/publico.png"
+    "images/Halasinfondo.png",
+    "images/publico.png"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
